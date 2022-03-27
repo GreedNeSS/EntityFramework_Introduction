@@ -35,10 +35,13 @@ namespace LoggingOperations
             //, new[] { RelationalEventId.CommandExecuted }
 
             // OR
+            , new[] { RelationalEventId.CommandExecuted, RelationalEventId.CommandCreated }
+
+            // OR
             //, new[] { DbLoggerCategory.Database.Transaction.Name }
             
             // OR
-            , new[] { DbLoggerCategory.Database.Command.Name }
+            //, new[] { DbLoggerCategory.Database.Command.Name, DbLoggerCategory.Database.Transaction.Name }
             );
         }
 
