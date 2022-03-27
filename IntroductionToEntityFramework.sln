@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateDB", "CreateDB\Create
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Database connection", "Database connection\Database connection.csproj", "{3E298641-7FE2-4B6F-B6EB-5334174FDE27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseManagement", "DatabaseManagement\DatabaseManagement.csproj", "{14ED485A-904C-42AF-BD25-CD94899FC66C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseManagement", "DatabaseManagement\DatabaseManagement.csproj", "{14ED485A-904C-42AF-BD25-CD94899FC66C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD", "CRUD\CRUD.csproj", "{49B2ABF8-EED7-446A-85B4-D1967570FD8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUD", "CRUD\CRUD.csproj", "{49B2ABF8-EED7-446A-85B4-D1967570FD8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectionСonfiguration", "ConnectionСonfiguration\ConnectionСonfiguration.csproj", "{C95CC524-C50F-4D45-B181-23E81D91D657}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConnectionСonfiguration", "ConnectionСonfiguration\ConnectionСonfiguration.csproj", "{C95CC524-C50F-4D45-B181-23E81D91D657}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingOperations", "LoggingOperations\LoggingOperations.csproj", "{A14FE58F-C3C0-40F5-A829-AB98A0E7FEBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C95CC524-C50F-4D45-B181-23E81D91D657}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C95CC524-C50F-4D45-B181-23E81D91D657}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C95CC524-C50F-4D45-B181-23E81D91D657}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A14FE58F-C3C0-40F5-A829-AB98A0E7FEBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A14FE58F-C3C0-40F5-A829-AB98A0E7FEBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A14FE58F-C3C0-40F5-A829-AB98A0E7FEBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A14FE58F-C3C0-40F5-A829-AB98A0E7FEBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
